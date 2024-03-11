@@ -77,7 +77,7 @@ function submit_ans(){
     }
     else if (ansr != acc_ans && c > 0) {
         document.getElementById('ans').style = "border-top: 13px solid red; background-color:#ffbdbd;text-align:left;" 
-        c++;
+        c--;
         console.log(c);
         document.getElementById('question_turn').innerHTML = pn1;
         document.getElementById('answer_turn').innerHTML = pn2;
