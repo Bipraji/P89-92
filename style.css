@@ -1,0 +1,87 @@
+body
+{
+    background: darkslategray;
+}
+
+.primary_input_div{
+    width: 1110px;
+    height: 600px;
+    background-color: white;
+    margin-top:10px;
+    border-radius: 20px;
+    
+}
+
+#heading{
+    font-family:"Madimi One", sans-serif;
+}
+
+.p1_div_i{
+   padding: 60px;
+   width: 500px;
+   background-color: wheat;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.p2_div_i{
+    margin-top: 130px;
+    padding: 60px;
+    width: 500px;
+    background-color: rgb(230, 60, 88);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+
+::-webkit-scrollbar{
+    border-radius: 10px;
+    width:10px;
+    background-color: rgb(65, 105, 24);
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: rgb(155, 153, 59);
+}
+#enterbutton:hover{
+    font-family: 'Madimi One', normal;
+}
+
+.score{
+    margin: 50px;
+    color:yellowgreen;
+    font-size: 20px;
+}
+
+#WhoseTurn{
+    margin: 10px;
+    font-size: 30px;
+    color:rgb(219, 216, 37);
+    font-family: 'Madimi One', normal;
+}
+.answering_area{
+    border-top: 13px solid  rgb(230, 60, 88) ;
+    border-radius: 10px;
+    width : 800px;
+    height: auto;
+    background-color: wheat;
+    padding : 20px;
+}
+#questioning_area{
+    width: 900px;
+    height:auto;
+}
+#questioning_area label{
+    font-family: 'Madimi One', normal;
+    color: goldenrod;
+    font-size: x-large;
+}
+
+::-webkit-scrollbar{
+    background-color: lightslategray;
+    border-radius: 20px;
+    width:10px
+}
+
+::-webkit-scrollbar-thumb{
+    color: darkslateblue;
+}
