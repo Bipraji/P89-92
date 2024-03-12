@@ -85,3 +85,15 @@ body
 ::-webkit-scrollbar-thumb{
     color: darkslateblue;
 }
+#math_type{
+
+    color : white;
+    font-size: x-large;
+
+}
+
+#math_type input{
+
+    padding: 100px;
+
+}
